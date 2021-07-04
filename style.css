@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .row{
+        display: block;
+    }
+      }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .row{
+        display: block;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .row{
+        display: block;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .row{
+        display: flex;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .row{
+        display: flex;
+    }
+  }
+  
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    box-shadow: 2px 2px 5px 1px #888888;
+    margin-bottom: 15px;
+
+}
+.navbar-brand{
+    font-weight: 400;
+    font-size: 33px;
+}
+.nav-item{
+    font-size: 22px;
+    padding: 18px;
+}
+.section3{
+    color:coral;
+}
+
+.col img{
+    width: 100%;
+    
+}
+h1{
+    font-size: 50px;
+}
+p{
+   text-align: justify;
+   
+
+}
+.col1{
+    padding: 50px;
+    margin-top: 40px;
+    height: auto;
+}
+.row{
+    height: auto;
+}
+.btn{
+    width: 150px;
+    float: left;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: white;
+}
+.text{
+    color:red
+}
+h5{
+    font-weight: 700;
+}
+.card{
+    border:none;
+    box-shadow: 2px 2px 5px 1px #888888;
+    
+}
+
+.annoying-text{
+    text-align: center;
+    width:50%;
+    margin: auto;
+    background:  var(--primary-color);
+    border-top: 4px solid coral;
+}
+.icon img{
+    width:50px;
+}
+.price h6{
+   font-size: 22px;
+   font-weight: 700;
+}
+.Accessory-wrap{
+    background:#F0F0F0;
+    padding: 5px; 
+    border-left: 25px solid red;   
+    border-bottom: 2px solid red; 
+    border-top: 2px solid red;
+    box-shadow: 2px 2px 5px 1px #888888;
+}
+.section3{
+    margin-top: 40px;
+}
+.last-sec{
+    border:5px solid coral;
+    padding: 20px;
+}
+.unique{
+   border:25px solid  var(--primary-color);;
+}
+.three{
+  background: coral;
+}
+.send{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: var(--primary-color);;
+    border-radius: 18px;
+    background: coral;
+    border-top: 20px solid white;
+
+}
+.footer__logo{
+    font-size: 30px;
+    color:coral;
+}
+footer{
+    font-size: 30px;
+
+}
+.footer__description{
+    font-size: 20px;
+
+}
+.footer__copy{
+    font-size: 17px;
+    text-align: center;
+    color:var(--secondary-color);
+}
+.footer__social:hover{
+  color:coral;
+}
+.footer__title{
+    color:coral;
+}
+
+footer a{
+     text-decoration: none;
+     color:black;
+     font-size: 22px;
+
+
+}
+.footer{
+    border:5px solid var(--primary-color)
+}
+footer li{
+   list-style: none;
+}
+.sendButton{
+  width:150px;
+  background-color: red;
+  color: var(--primary-color);
+  font-size: 22px;
+  border: none;
+  position: absolute;
+  top:6px;
+  right:14%;
+  border-radius: 20px;
+  padding: 5px;
+}
+input{
+    width:450px;
+    padding: 11px;
+    font-size: 20px;
+    border: none;
+
+}
+.lable{
+    position: relative;
+}
+
+
+
+
